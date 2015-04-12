@@ -1,0 +1,25 @@
+
+.img1   <!-- products-->
+{
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+td
+{
+    padding:inherit;
+    padding-top: 10px;
+    color:aliceblue;
+}
+.back
+{
+    background-color:#404040;
+}
+.img-contact
+{
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
