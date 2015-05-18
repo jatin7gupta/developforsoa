@@ -1,48 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
-    
-    <!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="custom.css">
-       <link rel="stylesheet" href="sheet1.css">
-        
+       <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
+       <title>SOA</title>
     </head>
-    <body class="back">
-        <header>
-            <nav class="navbar navbar-default navbar-inverse" role="navigation">
-                       <div class="container">
-                           <div class="navbar-header">
-                            <!--For Button-->
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse">
-                                <span class="sr-only">Toggle Navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-					            <span class="icon-bar"></span>
-                            </button>      
-                            <a href="#" class="navbar-brand" style="font-size: 2em"><strong>SOA</strong></a>
-                          </div><!--end of navbar-header-->
-                          <div  class="nav navbar-collapse" id="nav-collapse">
-                            <ul class="nav navbar-nav navbar-right">
-                              <li><a href="kunal.html" >Home</a></li>
-                              <li><a href="#" >About Us</a></li>
-                              <li  ><a href="products.html">Products</a></li>
-                              <li class="active"><a href="contactus.html">Contact Us</a></li> 
-                            </ul>
-                         </div>
+    <body>
+        <div class="container">
+              <nav class="navbar navbar-default navbar-fixed-top"> <!--NAVBAR-->
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="#" class="navbar-brand heading-font">
+                            Saniya Office Automation
+                        </a>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-c">                       <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                   </div>
+                   <div class="navbar navbar-collapse nav-tabs navbar-right" id="navbar-c">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"><strong>About</strong></a></li>
+                            <li><a href="#"><strong>Printers</strong></a></li>
+                            <li><a href="#"><strong>Scanners</strong></a></li>
+                            <li><a href="#"><strong>All in One</strong></a></li>
+                        </ul>
                     </div>
-            </nav><!--End of Navbar-->
-        </header>
-        <div class="row">
-            <div class="col-md-1">
-                
-            </div>        
-            <div class="col-md-5">
+    </div>
+</nav>
+            <hr>
+            <hr>
+            <hr>
+
+
+                <div class="container-fluid">
+                            <div class="row">
+                   
+            <div class="col-md-6">
                     <!-- Contact Details Column -->
                 <h3>Contact Us<small>  Lets get in touch</small></h3>
                 <p>
@@ -71,7 +66,7 @@
                     </li>
                 </ul>
             </div>
-           <!-- <div class="col-md-1">
+           <!-- 
                 
             </div>   -->         
 				<div class="col-lg-6">
@@ -113,21 +108,29 @@
 					</form>
 				</div>
         </div>
-        <div class="row">
-            <div class="col-md-1">
-                
-            </div>
+        
              <!-- Map Column -->
-         <div class="col-md-5">
+         <div class="col-md-6">
 <!--                 Embedded Google Map -->
                 <iframe width="100%" height="400px" frameborder="10%" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3502.031963816322!2d77.0679771!3d28.6288041!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04c32b33ebcf%3A0x2c8cd492073ea1fd!2sA-198%2C+A-Block%2C+Vikaspuri%2C+New+Delhi%2C+Delhi+110018!5e0!3m2!1sen!2sin!4v1428851873441"></iframe>
             </div>
         </div>
-<!--        </div>-->
+            </div>
+
+            <footer>
+               
+                <hr>
+                <ul class="list-inline">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Google+</a></li>
+                    <li><a href="#">Linkd In</a></li>
+                </ul>
+            </footer>
 
 
-    	<!-- Latest compiled and minified JavaScript -->
-	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>	
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script src="js/bootstrap.js"></script>
+        </div>
     </body>
+
 </html>
