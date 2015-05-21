@@ -10,8 +10,29 @@ position:relative;
 }
 
 .heading-font {
- 
+
   margin-top: 3%;
     font-size: 34px;
     font-family: 'Belleza', sans-serif;
+}
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.btn-primary.outline {
+    border: 2px solid #337AB7;
+    color: #337AB7;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #33a6cc;
+    border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #007299;
+    color: #007299;
+    box-shadow: none;
+}
+
+.text-allign-centre {
+    text-align: center;
 }
