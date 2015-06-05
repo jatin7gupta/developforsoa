@@ -36,3 +36,9 @@ position:relative;
 .text-allign-centre {
     text-align: center;
 }
+.belleza-h2 {
+
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Belleza', sans-serif;
+}
