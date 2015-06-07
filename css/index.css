@@ -42,3 +42,107 @@ position:relative;
     font-size: 40px;
     font-family: 'Belleza', sans-serif;
 }
+.ThemeNavbar{
+    background-color: #000000;
+    opacity: 0.85;
+}
+.NavbarText{
+    color: #ff6600;
+    font-family:sans-serif;
+}
+.ThemeBody{
+    background:url('http://static.hdw.eweb4.com/media/wallpapers_dl/1/130/1295724-keyboard-mouse.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.SectionTheme{
+    background-color: #006699;
+}
+.SectionText{
+    color: white;
+}
+.top-buffer{
+    margin-top: 20px;
+}
+.thumbnail{
+    background-color: navajowhite;
+}
+.footerText{
+    color: white;
+}
+html, body{height: 100%;}
+.footer {
+    background: #383b43;
+    padding: 6em 0em 4em;
+}
+.MainWell{
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 3em;
+    font-family: inherit;
+}
+.MainProducts{
+    background-color: #f5f5f5;
+}
+
+/* Header */
+body.landing #header {
+    background-color: transparent;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#header {
+    background-color: #383b43;
+    color: #ffffff;
+    cursor: default;
+    font-size: 1.1em;
+    height: 6em;
+    line-height: 6em;
+    width: 100%;
+    z-index: 10000;
+}
+#header nav {
+    height: inherit;
+    line-height: inherit;
+    position: absolute;
+    right: 3em;
+    vertical-align: middle;
+}
+#header nav > ul {
+    margin: 0;
+    padding-left: 0;
+}
+#header nav > ul > li {
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 2em;
+    padding-left: 0;
+}
+#header nav > ul > li a {
+    color: #cdced0;
+    display: inline-block;
+    text-decoration: none;
+}
+#banner {
+    background-image: url('http://static.hdw.eweb4.com/media/wallpapers_dl/1/130/1295724-keyboard-mouse.png');
+    background-position: center center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 14em 0em 14em;
+    text-align: center;
+}
+#banner h2 {
+    color: #ffffff;
+    font-size: 4em;
+    line-height: 1.25em;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+#banner p {
+    font-size: 1.5em;
+    margin-bottom: 1.75em;
+}
