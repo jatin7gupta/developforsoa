@@ -47,7 +47,7 @@ position:relative;
     opacity: 0.85;
 }
 .NavbarText{
-    color: #ff6600;
+    color: #cdcec0;
     font-family:sans-serif;
 }
 .ThemeBody{
@@ -66,14 +66,9 @@ position:relative;
 .top-buffer{
     margin-top: 20px;
 }
-.thumbnail{
-    background-color: navajowhite;
-}
 .footerText{
     color: white;
 }
-
-
 .footer {
     background: #383b43;
     padding: 6em 0em 4em;
