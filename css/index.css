@@ -66,6 +66,9 @@ position:relative;
 .top-buffer{
     margin-top: 20px;
 }
+.row{
+    background-color: navajowhite;
+}
 .footerText{
     color: white;
 }
