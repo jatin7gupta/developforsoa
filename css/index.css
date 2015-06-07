@@ -42,3 +42,31 @@ position:relative;
     font-size: 40px;
     font-family: 'Belleza', sans-serif;
 }
+.ThemeNavbar{
+    background-color: #000000;
+    opacity: 0.85;
+}
+.NavbarText{
+    color: #ff6600;
+    font-family:sans-serif;
+}
+.ThemeBody{
+    background:url('http://static.hdw.eweb4.com/media/wallpapers_dl/1/130/1295724-keyboard-mouse.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.SectionTheme{
+    background-color: #006699;
+}
+.SectionText{
+    color: white;
+}
+.top-buffer{
+    margin-top: 20px;
+}
+.footerText{
+    color: white;
+}
+html, body{height: 100%;}
