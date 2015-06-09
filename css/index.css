@@ -48,7 +48,7 @@ position:relative;
 }
 .NavbarText{
     color: #cdcec0;
-    font-family:sans-serif;
+    font-family: "Belleza",sans-serif;
 }
 .ThemeBody{
     background:url('http://static.hdw.eweb4.com/media/wallpapers_dl/1/130/1295724-keyboard-mouse.png') no-repeat center center fixed;
@@ -130,6 +130,7 @@ body.landing #header {
     color: #ffffff;
     padding: 14em 0em 14em;
     text-align: center;
+    font-family: "Belleza",sans-serif;
 }
 #banner h2 {
     color: #ffffff;
