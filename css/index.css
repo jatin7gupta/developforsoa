@@ -58,7 +58,7 @@ position:relative;
     background-size: cover;
 }
 .SectionTheme{
-    background-color: #006699;
+    background-color: #909090;
 }
 .SectionText{
     color: white;
@@ -148,4 +148,16 @@ html, body{height: 100%;}
 
 .margin-top {
     margin-top:90px;
+}
+
+.bg-color-background {
+    background-color: #404040;
+}
+
+
+    .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+        background-color: #404040;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+background-color: #404040;
 }
