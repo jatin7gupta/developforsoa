@@ -75,10 +75,10 @@ position:relative;
 }
 .MainWell{
     background-color: #f5f5f5;
-    padding-top: 20px;
-    text-align: center;
+    padding-top: 0.6em;
     font-size: 3em;
-    font-family: inherit;
+    text-align: center;
+    font-family: 'Belleza', sans-serif;
 }
 .MainProducts{
     background-color: #f5f5f5;
@@ -144,21 +144,30 @@ body.landing #header {
     margin-bottom: 1.75em;
 }
 
-html, body{height: 100%;}
-
-
+html, body {
+    height: 100%;
+}
 .margin-top {
     margin-top:90px;
 }
-
 .bg-color-background {
     background-color: #404040;
 }
-
-
-    .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
-        background-color: #404040;
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+    background-color: #404040;
 }
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
-background-color: #404040;
+    background-color: #404040;
+}
+
+.BoxBorder {
+		border-radius: 4px;
+		border: solid 0.2em rgba(144, 144, 144, 0.25);
+}
+.HomePageText {
+    background-color: #f5f5f5;
+    padding-top: 1em;
+    text-align: center;
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.16em;
 }
