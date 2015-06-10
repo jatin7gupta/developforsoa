@@ -64,7 +64,7 @@ position:relative;
 .footer {
     background: #383b43;
     padding: 2.5em 0em 2em;
-	text-align: center;
+    text-align: center;
     color: white;
 }
 .MainHeading {
@@ -176,7 +176,6 @@ html, body {
     opacity: 0.4;
     padding-top: 0.5em;
 }
-<<<<<<< HEAD
 .contact{
     color:floralwhite;
 }
@@ -192,10 +191,13 @@ html, body {
     color:#7f2493;
 }
 
-        
-=======
+
+.belleza-h1-center {
+    text-align: center;
+    font-family: 'Belleza', sans-serif;
+}
 .FooterHeading{
-	color: #f5f5f5;
+    color: #f5f5f5;
     font-size: 1.7em;
 }
 .footer hr {
@@ -212,4 +214,7 @@ html, body {
     color: white;
     opacity: 1;
 }
->>>>>>> origin/master
+.footer-link {
+    text-decoration-color: #ffffff;
+    text-decoration: none;
+}
