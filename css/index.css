@@ -64,7 +64,7 @@ position:relative;
 .footer {
     background: #383b43;
     padding: 2.5em 0em 2em;
-	text-align: center;
+    text-align: center;
     color: white;
 }
 .MainHeading {
@@ -185,7 +185,7 @@ html, body {
 }
 =======
 .FooterHeading{
-	color: #f5f5f5;
+    color: #f5f5f5;
     font-size: 1.7em;
 }
 .footer hr {
@@ -203,3 +203,8 @@ html, body {
     opacity: 1;
 }
 >>>>>>> origin/master
+
+.footer-link {
+    text-decoration-color: #ffffff;
+    text-decoration: none;
+}
