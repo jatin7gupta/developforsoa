@@ -2,12 +2,6 @@
 min-height:100%;
 position:relative;
 }
-#footer {
-    width:100%;
-    position:relative;
-    bottom:0;
-    left:0;
-}
 
 .heading-font {
 
@@ -51,7 +45,7 @@ position:relative;
     font-family: "Belleza",sans-serif;
 }
 .ThemeBody{
-    background:url('http://static.hdw.eweb4.com/media/wallpapers_dl/1/130/1295724-keyboard-mouse.png') no-repeat center center fixed;
+    background:url("background.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -68,18 +62,16 @@ position:relative;
 }
 .footer {
     background: #383b43;
-    padding: 2em 0em 2em;
-	padding: 6em 0 2em 0;
+    padding: 2.5em 0em 2em;
 	text-align: center;
-	color: white;
-	}
+    color: white;
 }
-.MainWell {
+.MainHeading {
     background-color: #f5f5f5;
     padding-top: 0.6em;
     font-size: 3em;
     text-align: center;
-    font-family: 'Belleza', sans-serif;
+    font-family: 'Belleza',sans-serif;
 }
 .MainProducts {
     background-color: white;
@@ -129,7 +121,7 @@ body.landing #header {
     text-decoration: none;
 }
 #banner {
-    background-image: url('http://static.hdw.eweb4.com/media/wallpapers_dl/1/130/1295724-keyboard-mouse.png');
+    background-image: url("background.png");
     background-position: center center;
     background-size: cover;
     color: #ffffff;
@@ -176,11 +168,28 @@ html, body {
     font-family: 'Belleza', sans-serif;
     font-size: 1.16em;
 }
-.FooterText{
+.FooterText {
     color: white;
-    font-size: 1.3em;
-    font-family: 'Belleza',sans-serif;
+    font-size: 1.2em;
+    font-family: 'Belleza', sans-serif;
+    opacity: 0.4;
+    padding-top: 0.5em;
 }
 .FooterHeading{
-	color: inherit;
+	color: #f5f5f5;
+    font-size: 1.7em;
+}
+.footer hr {
+    border-bottom: 1px solid;
+    border-color: #f5f5f5;
+    opacity: .05;
+}
+.FooterCopyright {
+    color: #f5f5f5;
+    text-align: center;
+    opacity: 0.4;
+}
+.footerText {
+    color: white;
+    opacity: 1;
 }
