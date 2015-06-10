@@ -184,4 +184,19 @@ html, body {
     font-size: 1.3em;
     font-family: 'Belleza',sans-serif;
 }
+.contact{
+    color:floralwhite;
+}
+.contact1
+{
+    color: #F4F3F3;
+}
+.conlink
+{
+    color:dodgerblue;
+}
+.conlink:hover{
+    color:#7f2493;
+}
 
+        
