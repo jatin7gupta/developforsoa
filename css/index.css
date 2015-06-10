@@ -68,22 +68,27 @@ position:relative;
 .top-buffer{
     margin-top: 20px;
 }
-.footerText{
-    color: white;
-}
 .footer {
     background: #383b43;
-    padding: 6em 0em 4em;
+    padding: 2em 0em 2em;
+    padding: 6em 0 2em 0;
+    text-align: center;
+    color: white;
+    }
 }
-.MainWell{
+.MainWell {
     background-color: #f5f5f5;
     padding-top: 0.6em;
     font-size: 3em;
     text-align: center;
     font-family: 'Belleza', sans-serif;
 }
-.MainProducts{
-    background-color: #f5f5f5;
+.MainProducts {
+    background-color: white;
+    font-family: 'Belleza', sans-serif;
+    border-radius: 4px;
+    border: solid 0.2em rgba(144, 144, 144, 0.25);
+    text-align: center;
 }
 
 /* Header */
@@ -173,3 +178,10 @@ html, body {
     font-family: 'Belleza', sans-serif;
     font-size: 1.16em;
 }
+
+.FooterText{
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Belleza',sans-serif;
+}
+
