@@ -45,18 +45,12 @@ position:relative;
     font-family: "Belleza",sans-serif;
 }
 .ThemeBody{
-<<<<<<< HEAD
     background:url("background.png") no-repeat center center fixed;
     -webkit-background-size: cover;
-=======
-
-    background:url('http://static.hdw.eweb4.com/media/wallpapers_dl/1/130/1295724-keyboard-mouse.png') no-repeat center center fixed;
-
->>>>>>> origin/master
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-     -webkit-background-size: cover;
+    -webkit-background-size: cover;
 }
 .SectionTheme{
     background-color: #909090;
@@ -69,17 +63,9 @@ position:relative;
 }
 .footer {
     background: #383b43;
-<<<<<<< HEAD
     padding: 2.5em 0em 2em;
 	text-align: center;
     color: white;
-=======
-    padding: 2em 0em 2em;
-    padding: 6em 0 2em 0;
-    text-align: center;
-    color: white;
-    }
->>>>>>> origin/master
 }
 .MainHeading {
     background-color: #f5f5f5;
@@ -183,19 +169,13 @@ html, body {
     font-family: 'Belleza', sans-serif;
     font-size: 1.16em;
 }
-<<<<<<< HEAD
 .FooterText {
-=======
-
-.FooterText{
->>>>>>> origin/master
     color: white;
     font-size: 1.2em;
     font-family: 'Belleza', sans-serif;
     opacity: 0.4;
     padding-top: 0.5em;
 }
-<<<<<<< HEAD
 .FooterHeading{
 	color: #f5f5f5;
     font-size: 1.7em;
@@ -214,6 +194,3 @@ html, body {
     color: white;
     opacity: 1;
 }
-=======
-
->>>>>>> origin/master
