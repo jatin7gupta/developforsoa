@@ -51,11 +51,13 @@ position:relative;
     font-family: "Belleza",sans-serif;
 }
 .ThemeBody{
+
     background:url('http://static.hdw.eweb4.com/media/wallpapers_dl/1/130/1295724-keyboard-mouse.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
+
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+     -webkit-background-size: cover;
 }
 .SectionTheme{
     background-color: #909090;
@@ -161,8 +163,8 @@ html, body {
 }
 
 .BoxBorder {
-		border-radius: 4px;
-		border: solid 0.2em rgba(144, 144, 144, 0.25);
+        border-radius: 4px;
+        border: solid 0.2em rgba(144, 144, 144, 0.25);
 }
 .HomePageText {
     background-color: #f5f5f5;
