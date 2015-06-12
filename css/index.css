@@ -177,11 +177,12 @@ html, body {
     padding-top: 0.5em;
 }
 .contact{
-    color:floralwhite;
+    color:#000000;
+
 }
 .contact1
 {
-    color: #F4F3F3;
+    color: #FFFFFF;
 }
 .conlink
 {
@@ -218,6 +219,7 @@ html, body {
     text-decoration-color: #ffffff;
     text-decoration: none;
 }
+<<<<<<< HEAD
 
 #footer{
     position: absolute;
@@ -225,3 +227,32 @@ html, body {
     height: 60px;
     width: 100%
 }
+=======
+.belleza-h1 {
+    font-family: 'Belleza', sans-serif;
+}
+@media (max-width: 320px) {
+    .NavbarText{
+        color: #cdcec0;
+        font-family: "Belleza",sans-serif;
+        font-size: 0.65em;
+    }
+
+}
+@media (max-width: 445px) {
+    .NavbarText{
+        color: #cdcec0;
+        font-family: "Belleza",sans-serif;
+        font-size: 0.65em;
+    }
+
+}
+
+.NavbarText-1 {
+    color: #cdcec0;
+    font-family: "Belleza",sans-serif;
+}
+#footer{
+    position: absolute
+}
+>>>>>>> origin/master
