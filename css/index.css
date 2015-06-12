@@ -219,15 +219,9 @@ html, body {
     text-decoration-color: #ffffff;
     text-decoration: none;
 }
-<<<<<<< HEAD
 
-#footer{
-    position: absolute;
-/*    bottom: 0;*/
-    height: 60px;
-    width: 100%
-}
-=======
+
+
 .belleza-h1 {
     font-family: 'Belleza', sans-serif;
 }
@@ -253,6 +247,9 @@ html, body {
     font-family: "Belleza",sans-serif;
 }
 #footer{
-    position: absolute
+    position: absolute;
+/*    bottom: 0;*/
+    height: 60px;
+    width: 100%;
 }
->>>>>>> origin/master
+
