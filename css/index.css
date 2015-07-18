@@ -8,6 +8,7 @@ position:relative;
   margin-top: 3%;
     font-size: 34px;
     font-family: 'Belleza', sans-serif;
+    padding: 5px 5px;
 }
 .btn.outline {
     background: none;
