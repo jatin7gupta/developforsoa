@@ -1,292 +1,65 @@
-#wrapper {
-min-height:100%;
-position:relative;
+@font-face{font-family:'Belleza';src:url('http://saniyaoffice.com/fonts/Belleza-Regular.ttf');format("truetype");}#wrapper{min-height:100%;position:relative;}
+.heading-font{margin-top:3%;font-size:34px;font-family:'Belleza', sans-serif;padding:5px 5px;}
+.btn.outline{background:none;padding:12px 22px;}
+.btn-primary.outline{border:2px solid #337AB7;color:#337AB7;}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary{color:#33a6cc;border-color:#33a6cc;}
+.btn-primary.outline:active, .btn-primary.outline.active{border-color:#007299;color:#007299;box-shadow:none;}
+.text-allign-centre{text-align:center;}
+.belleza-h2{text-align:left;font-size:40px;font-family:'Belleza';}
+.ThemeNavbar{background-color:#000000;opacity:0.85;}
+.NavbarText{color:#cdcec0;font-family:"Belleza",sans-serif;}
+.ThemeBody{background:url("kunal1.jpg") no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-background-size:cover;}
+.SectionTheme{background-color:#333333;}
+.SectionText{color:white;}
+.top-buffer{margin-top:20px;}
+.footer{background:#383b43;padding:2.5em 0em 2em;text-align:center;color:white;}
+.MainHeading{background-color:#f5f5f5;padding-top:0.6em;font-size:3em;text-align:center;font-family:'Belleza';}
+.MainProducts{background-color:white;font-family:'Belleza', sans-serif;border-radius:4px;border:solid 0.2em rgba(144, 144, 144, 0.25);text-align:center;}
+body.landing #header{background-color:transparent;left:0;position:absolute;top:0;}
+#header{background-color:#383b43;color:#ffffff;cursor:default;font-size:1.1em;height:6em;line-height:6em;width:100%;z-index:10000;}
+#header nav{height:inherit;line-height:inherit;position:absolute;right:3em;vertical-align:middle;}
+#header nav > ul{margin:0;padding-left:0;}
+#header nav > ul > li{border-radius:4px;display:inline-block;margin-left:2em;padding-left:0;}
+#header nav > ul > li a{color:#cdced0;display:inline-block;text-decoration:none;}
+#banner{background-image:url("kunal1.jpg");background-position:center center;background-size:cover;color:#ffffff;padding:14em 0em 14em;text-align:center;font-family:"Belleza";}
+#banner h2{color:#ffffff;font-size:4em;line-height:1.25em;margin:0 0 0.5em 0;padding:0;}
+#banner p{font-size:1.5em;margin-bottom:1.75em;}
+html, body{height:100%;}
+.margin-top{margin-top:90px;}
+.bg-color-background{background-color:#404040;}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{background-color:#404040;}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{background-color:#404040;}
+.BoxBorder{border-radius:4px;border:solid 0.2em rgba(144, 144, 144, 0.25);}
+.HomePageText{background-color:#f5f5f5;padding-top:1em;text-align:center;font-family:'Belleza';font-size:1.16em;}
+.FooterText{color:white;font-size:1.2em;font-family:'Belleza';opacity:0.4;padding-top:0.5em;}
+.contact{color:#ffffff;}
+.contact1{color:#FFFFFF;}
+.conlink{color:dodgerblue;}
+.conlink:hover{color:#7f2493;}
+.belleza-h1-center{text-align:center;font-family:'Belleza';}
+.FooterHeading{color:#f5f5f5;font-size:1.7em;}
+.footer hr{border-bottom:1px solid;border-color:#f5f5f5;opacity:.05;}
+.FooterCopyright{color:#f5f5f5;text-align:center;opacity:0.4;}
+.footerText{color:white;opacity:1;}
+.footer-link{text-decoration-color:#ffffff;text-decoration:none;}
+.belleza-h1{font-family:'Belleza';}
+@media (max-width:320px){.NavbarText{color:#cdcec0;font-family:"Belleza",sans-serif;font-size:0.65em;}
 }
-
-.heading-font {
-
-  margin-top: 3%;
-    font-size: 34px;
-    font-family: 'Belleza', sans-serif;
-    padding: 5px 5px;
+@media (max-width:445px){.NavbarText{color:#cdcec0;font-family:"Belleza",sans-serif;font-size:0.65em;}
 }
-.btn.outline {
-    background: none;
-    padding: 12px 22px;
-}
-.btn-primary.outline {
-    border: 2px solid #337AB7;
-    color: #337AB7;
-}
-.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
-    color: #33a6cc;
-    border-color: #33a6cc;
-}
-.btn-primary.outline:active, .btn-primary.outline.active {
-    border-color: #007299;
-    color: #007299;
-    box-shadow: none;
-}
-
-.text-allign-centre {
-    text-align: center;
-}
-.belleza-h2 {
-
-    text-align: left;
-    font-size: 40px;
-    font-family: 'Belleza', sans-serif;
-}
-.ThemeNavbar{
-    background-color: #000000;
-    opacity: 0.85;
-}
-.NavbarText{
-    color: #cdcec0;
-    font-family: "Belleza",sans-serif;
-}
-.ThemeBody{
-    background:url("kunal1.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    -webkit-background-size: cover;
-}
-.SectionTheme{
-    background-color: #333333;
-}
-.SectionText{
-    color: white;
-}
-.top-buffer{
-    margin-top: 20px;
-}
-.footer {
-    background: #383b43;
-    padding: 2.5em 0em 2em;
-    text-align: center;
-    color: white;
-}
-.MainHeading {
-    background-color: #f5f5f5;
-    padding-top: 0.6em;
-    font-size: 3em;
-    text-align: center;
-    font-family: 'Belleza',sans-serif;
-}
-.MainProducts {
-    background-color: white;
-    font-family: 'Belleza', sans-serif;
-    border-radius: 4px;
-    border: solid 0.2em rgba(144, 144, 144, 0.25);
-    text-align: center;
-}
-
-/* Header */
-body.landing #header {
-    background-color: transparent;
-    left: 0;
-    position: absolute;
-    top: 0;
-}
-#header {
-    background-color: #383b43;
-    color: #ffffff;
-    cursor: default;
-    font-size: 1.1em;
-    height: 6em;
-    line-height: 6em;
-    width: 100%;
-    z-index: 10000;
-}
-#header nav {
-    height: inherit;
-    line-height: inherit;
-    position: absolute;
-    right: 3em;
-    vertical-align: middle;
-}
-#header nav > ul {
-    margin: 0;
-    padding-left: 0;
-}
-#header nav > ul > li {
-    border-radius: 4px;
-    display: inline-block;
-    margin-left: 2em;
-    padding-left: 0;
-}
-#header nav > ul > li a {
-    color: #cdced0;
-    display: inline-block;
-    text-decoration: none;
-}
-#banner {
-    background-image: url("kunal1.jpg");
-    background-position: center center;
-    background-size: cover;
-    color: #ffffff;
-    padding: 14em 0em 14em;
-    text-align: center;
-    font-family: "Belleza",sans-serif;
-}
-#banner h2 {
-    color: #ffffff;
-    font-size: 4em;
-    line-height: 1.25em;
-    margin: 0 0 0.5em 0;
-    padding: 0;
-}
-#banner p {
-    font-size: 1.5em;
-    margin-bottom: 1.75em;
-}
-
-html, body {
-    height: 100%;
-}
-.margin-top {
-    margin-top:90px;
-}
-.bg-color-background {
-    background-color: #404040;
-}
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
-    background-color: #404040;
-}
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
-    background-color: #404040;
-}
-
-.BoxBorder {
-        border-radius: 4px;
-        border: solid 0.2em rgba(144, 144, 144, 0.25);
-}
-.HomePageText {
-    background-color: #f5f5f5;
-    padding-top: 1em;
-    text-align: center;
-    font-family: 'Belleza', sans-serif;
-    font-size: 1.16em;
-}
-.FooterText {
-    color: white;
-    font-size: 1.2em;
-    font-family: 'Belleza', sans-serif;
-    opacity: 0.4;
-    padding-top: 0.5em;
-}
-.contact{
-    color:#ffffff;
-
-}
-.contact1
-{
-    color: #FFFFFF;
-}
-.conlink
-{
-    color:dodgerblue;
-}
-.conlink:hover{
-    color:#7f2493;
-}
-
-
-.belleza-h1-center {
-    text-align: center;
-    font-family: 'Belleza', sans-serif;
-}
-.FooterHeading{
-    color: #f5f5f5;
-    font-size: 1.7em;
-}
-.footer hr {
-    border-bottom: 1px solid;
-    border-color: #f5f5f5;
-    opacity: .05;
-}
-.FooterCopyright {
-    color: #f5f5f5;
-    text-align: center;
-    opacity: 0.4;
-}
-.footerText {
-    color: white;
-    opacity: 1;
-}
-.footer-link {
-    text-decoration-color: #ffffff;
-    text-decoration: none;
-}
-
-
-
-.belleza-h1 {
-    font-family: 'Belleza', sans-serif;
-}
-@media (max-width: 320px) {
-    .NavbarText{
-        color: #cdcec0;
-        font-family: "Belleza",sans-serif;
-        font-size: 0.65em;
-    }
-
-}
-@media (max-width: 445px) {
-    .NavbarText{
-        color: #cdcec0;
-        font-family: "Belleza",sans-serif;
-        font-size: 0.65em;
-    }
-
-}
-
-.NavbarText-1 {
-    color: #cdcec0;
-    font-family: "Belleza",sans-serif;
-    font-size: 1.2em;
-}
-#footer {
-    width:100%;
-    height:25px;
-    position:absolute;
-    bottom:0;
-    left:0;
-}
-
-
-.para-font {
-    font-size: 1.2em;
-}
-
-.font-white {
-    color: white;
-}
-
-.btn-sample {
-    color: #ffffff;
-    background-color: #333333;
-    border-color: #333333;
-}
-
+.NavbarText-1{color:#cdcec0;font-family:"Belleza",sans-serif;font-size:1.2em;}
+#footer{width:100%;height:25px;position:absolute;bottom:0;left:0;}
+.para-font{font-size:1.2em;}
+.font-white{color:white;}
+.btn-sample{color:#ffffff;background-color:#333333;border-color:#333333;}
 .btn-sample:hover,
 .btn-sample:focus,
 .btn-sample:active,
 .btn-sample.active,
-.open .dropdown-toggle.btn-sample {
-    color: #ffffff;
-    background-color: #333;
-    border-color: #333333;
-}
-
+.open .dropdown-toggle.btn-sample{color:#ffffff;background-color:#333;border-color:#333333;}
 .btn-sample:active,
 .btn-sample.active,
-.open .dropdown-toggle.btn-sample {
-    background-image: none;
-}
-
+.open .dropdown-toggle.btn-sample{background-image:none;}
 .btn-sample.disabled,
 .btn-sample[disabled],
 fieldset[disabled] .btn-sample,
@@ -301,32 +74,8 @@ fieldset[disabled] .btn-sample:focus,
 fieldset[disabled] .btn-sample:active,
 .btn-sample.disabled.active,
 .btn-sample[disabled].active,
-fieldset[disabled] .btn-sample.active {
-    background-color: #333333;
-    border-color: #333333;
-}
-
-.btn-sample .badge {
-    color: #333333;
-    background-color: #ffffff;
-}
-
-
-
-.font-belleza {
-    font-family: belleza;
-    font-size: 1.1em;
-}
-
-.frame-x {
-    width:100%;
-    height:350px;
-    overflow: hidden;
-    margin: 0;
-
-
-}
-
-.font-big {
-    font-size:1.5em;
-}
+fieldset[disabled] .btn-sample.active{background-color:#333333;border-color:#333333;}
+.btn-sample .badge{color:#333333;background-color:#ffffff;}
+.font-belleza{font-family:belleza;font-size:1.1em;}
+.frame-x{width:100%;height:350px;overflow:hidden;margin:0;}
+.font-big{font-size:1.5em;}
